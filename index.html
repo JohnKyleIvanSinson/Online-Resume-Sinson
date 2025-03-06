@@ -1,54 +1,126 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    </head>
+    <title>John Kyle Ivan T. Sinson - Resume</title>
+    <style>
+        body {
+            background: #1e1e1e;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #1e1e1e;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            background: #1e1e1e;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #b600ed;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #b600ed;
+            display: inline-block;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        .personal-info div, .education div {
+            margin-bottom: 12px;
+        }
+
+        .img-container {
+            float: right;
+            margin-left: 30px;
+        }
+
+        .img-container img {
+            width: 220px;
+            border-radius: 20px;
+            border: 5px solid #b600ed;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
 <body>
-<br>
-    <img src="457619524_542588754869055_2417867059288503928_n.jpg" alt="Description" style="float: right; width: 200px; height: auto;">
-<ol>
-    <h1>SINSON, JOHN KYLE IVAN T.</h1><p>Contact: 0976-2738-792<br>Email: johnkylesinson@gmail.com</p>
-</ol>
-    <br>
-<hr>
-        <h3><p style="text-align: left;">SKILLS:</p></h3>
-<ol>
-    <li>Knowledge of HTML, CSS, JavaScript, and <br>frameworks like React or Angular.</li>
-    <li>Understanding of how to allocate resources <br>effectively to meet project deadlines.</li>
-    <li>Ability to quickly learn and adapt<br> to new technologies and methods.</li>
-</ol>
- <h3>PERRSONAL INFO:</h3>
 
- <div style="text-align: left;">
-    <h4 style="display: inline;">Date of Birth:</h4> December 7, 2007
-</div>
-<div style="text-align: left;">
-    <h4 style="display: inline;">Citizenship:</h4> Filipino
-</div>
-<div style="text-align: left;">
-    <h4 style="display: inline;">Sex:</h4> Male
-</div>
-<div style="text-align: left;">
-    <h4 style="display: inline;">Civil Status:</h4> Single
-</div>
+<div class="container">
+    <div class="header">
+        <h1>John Kyle Ivan T. Sinson</h1>
+        <p>Contact: 0976-2738-792 | Email: johnkylesinson@gmail.com</p>
+    </div>
 
-<h3 style="text-align: center;">
-    EDUCATION ATTAINMENT:
-</h3>
-<div style="text-align: center;">
-    <h4 style="display: inline;">Senior High School</h4> Unida Christian Colleges  2024-2025
-</div>
-<br>
-<div style="text-align: center;">
-    <h4 style="display: inline;">Junior High School</h4> Imus National High School  2020-2024
-</div>
-<br>
-<div style="text-align: center;">
-    <h4 style="display: inline;">Elementary School</h4> Carsadang Bago Elementary School  2016-2020
-</div>
+    <div class="content">
+        <div class="img-container">
+            <img src="Self.jpg" alt="John Kyle Ivan T. Sinson">
+        </div>
 
+        <div class="skills">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li>Proficient in HTML, CSS, JavaScript, and frameworks like React or Angular.</li>
+                <li>Effective resource allocation to meet project deadlines.</li>
+                <li>Quick adaptability to new technologies and methodologies.</li>
+            </ul>
+        </div>
 
+        <div class="personal-info">
+            <div class="section-title">Personal Information</div>
+            <div><strong>Date of Birth:</strong> December 7, 2007</div>
+            <div><strong>Citizenship:</strong> Filipino</div>
+            <div><strong>Sex:</strong> Male</div>
+            <div><strong>Civil Status:</strong> Single</div>
+        </div>
 
+        <div class="education">
+            <div class="section-title">Education Attainment</div>
+            <div><strong>Senior High School:</strong> Unida Christian Colleges (2024-2025)</div>
+            <div><strong>Junior High School:</strong> Imus National High School (2020-2024)</div>
+            <div><strong>Elementary School:</strong> Carsadang Bago Elementary School (2016-2020)</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 John Kyle Ivan T. Sinson. All Rights Reserved.
+    </div>
+</div>
 
 </body>
 </html>
